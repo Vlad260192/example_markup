@@ -1,0 +1,601 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>APFusion main page</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<link rel="stylesheet" href="css/style.min.css?_v=20230621213909">
+	<link rel="shortcut icon" href="favicon.ico">
+	<!-- <meta name="robots" content="noindex, nofollow"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+	<div class="wrapper" data-scroll-container>
+		<header class="header">
+			<div class="header__container-big">
+				<a href="#" class="header__logo">
+					<picture><source srcset="img/logo.webp" type="image/webp"><img src="img/logo.png" alt="logo"></picture>
+				</a>
+				<div class="header__inner">
+					<div class="header__menu menu">
+						<nav class="menu__body">
+							<ul class="menu__list">
+								<li class="menu__item">
+									<a href="#" class="menu__link">
+										<span>Blog</span>
+										<svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+											<path d="M5.83333 1.75V2.91667H2.91667V11.0833H11.0833V8.16667H12.25V11.6667C12.25 11.8214 12.1885 11.9697 12.0791 12.0791C11.9697 12.1885 11.8214 12.25 11.6667 12.25H2.33333C2.17862 12.25 2.03025 12.1885 1.92085 12.0791C1.81146 11.9697 1.75 11.8214 1.75 11.6667V2.33333C1.75 2.17862 1.81146 2.03025 1.92085 1.92085C2.03025 1.81146 2.17862 1.75 2.33333 1.75H5.83333ZM10.3291 4.49575L7 7.82483L6.17517 7L9.50425 3.67092L7.58333 1.75H12.25V6.41667L10.3291 4.49575Z" fill="#D5DFEE" />
+										</svg>
+									</a>
+								</li>
+								<li class="menu__item">
+									<a href="#" class="menu__link">
+										<span>Jobs</span>
+										<svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+											<path d="M5.83333 1.75V2.91667H2.91667V11.0833H11.0833V8.16667H12.25V11.6667C12.25 11.8214 12.1885 11.9697 12.0791 12.0791C11.9697 12.1885 11.8214 12.25 11.6667 12.25H2.33333C2.17862 12.25 2.03025 12.1885 1.92085 12.0791C1.81146 11.9697 1.75 11.8214 1.75 11.6667V2.33333C1.75 2.17862 1.81146 2.03025 1.92085 1.92085C2.03025 1.81146 2.17862 1.75 2.33333 1.75H5.83333ZM10.3291 4.49575L7 7.82483L6.17517 7L9.50425 3.67092L7.58333 1.75H12.25V6.41667L10.3291 4.49575Z" fill="#D5DFEE" />
+										</svg>
+									</a>
+								</li>
+								<li class="menu__item">
+									<a href="#" class="menu__link">
+										<span>Image sync</span>
+										<svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+											<path d="M5.83333 1.75V2.91667H2.91667V11.0833H11.0833V8.16667H12.25V11.6667C12.25 11.8214 12.1885 11.9697 12.0791 12.0791C11.9697 12.1885 11.8214 12.25 11.6667 12.25H2.33333C2.17862 12.25 2.03025 12.1885 1.92085 12.0791C1.81146 11.9697 1.75 11.8214 1.75 11.6667V2.33333C1.75 2.17862 1.81146 2.03025 1.92085 1.92085C2.03025 1.81146 2.17862 1.75 2.33333 1.75H5.83333ZM10.3291 4.49575L7 7.82483L6.17517 7L9.50425 3.67092L7.58333 1.75H12.25V6.41667L10.3291 4.49575Z" fill="#D5DFEE" />
+										</svg>
+									</a>
+								</li>
+								<li class="menu__item">
+									<a href="#" class="menu__link">
+										<span>Login</span>
+										<svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+											<path d="M9.99951 10.999H1.99951V9.99902C1.99951 9.33598 2.2629 8.7001 2.73174 8.23126C3.20059 7.76242 3.83647 7.49902 4.49951 7.49902H7.49951C8.16255 7.49902 8.79844 7.76242 9.26728 8.23126C9.73612 8.7001 9.99951 9.33598 9.99951 9.99902V10.999ZM5.99951 6.49902C5.60555 6.49902 5.21544 6.42143 4.85146 6.27066C4.48748 6.1199 4.15677 5.89892 3.87819 5.62034C3.59962 5.34177 3.37864 5.01105 3.22787 4.64707C3.07711 4.2831 2.99951 3.89299 2.99951 3.49902C2.99951 3.10506 3.07711 2.71495 3.22787 2.35097C3.37864 1.987 3.59962 1.65628 3.87819 1.3777C4.15677 1.09913 4.48748 0.878149 4.85146 0.727385C5.21544 0.576621 5.60555 0.499023 5.99951 0.499023C6.79516 0.499023 7.55822 0.815094 8.12083 1.3777C8.68344 1.94031 8.99951 2.70337 8.99951 3.49902C8.99951 4.29467 8.68344 5.05773 8.12083 5.62034C7.55822 6.18295 6.79516 6.49902 5.99951 6.49902Z" fill="#246F8F" />
+										</svg>
+									</a>
+								</li>
+							</ul>
+						</nav>
+					</div>
+					<div class="header__actions">
+						<button type="button" class="menu__icon icon-menu"><span></span></button>
+					</div>
+				</div>
+			</div>
+		</header>
+
+		<main class="page">
+			<section class="page__main main">
+				<div id="blobs" class="blobs-wrapper">
+					<div class="blobs" role="presentation">
+						<div class="blob-rotate">
+							<div class="blob-move">
+								<div class="blob"></div>
+							</div>
+						</div>
+						<div class="blob-rotate">
+							<div class="blob-move">
+								<div class="blob"></div>
+							</div>
+						</div>
+						<div class="blob-rotate">
+							<div class="blob-move">
+								<div class="blob"></div>
+							</div>
+						</div>
+						<div class="blob-rotate">
+							<div class="blob-move">
+								<div class="blob"></div>
+							</div>
+						</div>
+						<div class="blob-rotate">
+							<div class="blob-move">
+								<div class="blob"></div>
+							</div>
+						</div>
+						<div class="blob-rotate">
+							<div class="blob-move">
+								<div class="blob"></div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="main__content fade" data-scroll>
+					<div class="main__container-big">
+						<div class="main__container">
+							<div class="main__body">
+								<h1 class="main__title">
+									Give your <br> sales team <br> superpowers
+								</h1>
+								<p class="main__text">
+									APFusion is a B2B automotive marketplace that helps salvage yards increase their fill rate and close more sales
+								</p>
+								<div class="button__border">
+									<a href="#" data-popup="#popup" class="main__button button button__demo">
+										<span>Schedule Demo</span>
+										<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+											<g clip-path="url(#clip0_1820_2192)">
+												<path d="M9.99984 18.3327C5.39734 18.3327 1.6665 14.6018 1.6665 9.99935C1.6665 5.39685 5.39734 1.66602 9.99984 1.66602C14.6023 1.66602 18.3332 5.39685 18.3332 9.99935C18.3332 14.6018 14.6023 18.3327 9.99984 18.3327ZM8.85151 7.01185C8.80135 6.97839 8.74306 6.95916 8.68284 6.9562C8.62262 6.95324 8.56273 6.96668 8.50954 6.99507C8.45635 7.02346 8.41186 7.06574 8.3808 7.11742C8.34975 7.16909 8.33328 7.22822 8.33317 7.28852V12.7102C8.33328 12.7705 8.34975 12.8296 8.3808 12.8813C8.41186 12.933 8.45635 12.9752 8.50954 13.0036C8.56273 13.032 8.62262 13.0455 8.68284 13.0425C8.74306 13.0395 8.80135 13.0203 8.85151 12.9868L12.9173 10.2768C12.9631 10.2464 13.0006 10.2052 13.0265 10.1568C13.0524 10.1083 13.066 10.0543 13.066 9.99935C13.066 9.94443 13.0524 9.89036 13.0265 9.84194C13.0006 9.79353 12.9631 9.75228 12.9173 9.72185L8.85151 7.01185Z" fill="white" />
+											</g>
+											<defs>
+												<clipPath id="clip0_1820_2192">
+													<rect width="20" height="20" fill="white" />
+												</clipPath>
+											</defs>
+										</svg>
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="main__image fade" data-scroll>
+					<picture>
+						<source srcset="img/main/main-dash-min.png" media="(max-width: 991.98px)">
+						<img src="img/main/main-dash.png" alt="dashboard">
+					</picture>
+				</div>
+			</section>
+			<div class="page__partners partners">
+				<div class="partners__container-big">
+					<div class="partners__container">
+						<div class="partners__body fade-in-bottom" data-scroll>
+							<div class="partners__item">
+								<img src="img/partners/partner01.svg" alt="partner">
+							</div>
+							<div class="partners__item">
+								<img src="img/partners/partner02.svg" alt="partner">
+							</div>
+							<div class="partners__item">
+								<img src="img/partners/partner03.svg" alt="partner">
+							</div>
+							<div class="partners__item">
+								<img src="img/partners/partner04.svg" alt="partner">
+							</div>
+							<div class="partners__item">
+								<img src="img/partners/partner05.svg" alt="partner">
+							</div>
+							<div class="partners__item">
+								<img src="img/partners/partner06.svg" alt="partner">
+							</div>
+						</div>
+						<div class="partners__slider swiper fade-in-bottom" data-scroll>
+							<div class="partners__wrapper swiper-wrapper">
+								<div class="partners__slide swiper-slide">
+									<div class="partners__slide-image">
+										<img src="img/partners/partner01.svg" alt="partner">
+									</div>
+								</div>
+								<div class="partners__slide swiper-slide">
+									<div class="partners__slide-image">
+										<img src="img/partners/partner02.svg" alt="partner">
+									</div>
+								</div>
+								<div class="partners__slide swiper-slide">
+									<div class="partners__slide-image">
+										<img src="img/partners/partner03.svg" alt="partner">
+									</div>
+								</div>
+								<div class="partners__slide swiper-slide">
+									<div class="partners__slide-image">
+										<img src="img/partners/partner04.svg" alt="partner">
+									</div>
+								</div>
+								<div class="partners__slide swiper-slide">
+									<div class="partners__slide-image">
+										<img src="img/partners/partner05.svg" alt="partner">
+									</div>
+								</div>
+								<div class="partners__slide swiper-slide">
+									<div class="partners__slide-image">
+										<img src="img/partners/partner06.svg" alt="partner">
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<section class="page__workflow workflow">
+				<div class="workflow__container-big">
+					<div class="workflow__container">
+						<div class="workflow__body">
+							<h2 class="workflow__title fade-in-bottom" data-scroll>
+								We integrate directly into your workflow
+							</h2>
+							<div class="workflow__body-inner">
+								<p class="workflow__text text fade-in-bottom" data-scroll>
+									Our vendors load millions of dollars worth of inventory into APFusion, and through the APFusion connector we make that inventory immediately available in your yard management system.
+								</p>
+								<p class="workflow__text text fade-in-bottom" data-scroll>
+									Sit back and relax. Once a sale has been made, use the APFusion desktop app to automate the purchase order. Your that item has shipped we’ll send tracking information back to your YMS automatically.
+								</p>
+							</div>
+						</div>
+						<div class="workflow__footer">
+							<div class="workflow__footer-block">
+								<div class="workflow__row row fade-in-bottom" data-scroll>
+									<div class="row__column">
+										<div class="row__image-wrapper row__image-wrapper_1">
+											<div class="row__image row__image_1">
+												<svg width="45" height="45" viewBox="0 0 45 45" fill="none" xmlns="http://www.w3.org/2000/svg">
+													<path fill-rule="evenodd" clip-rule="evenodd" d="M9.07671 7.38652L8.70171 11.9803C8.62671 12.8615 9.32046 13.5928 10.2017 13.5928H38.908C39.6955 13.5928 40.3517 12.9928 40.408 12.2053C40.6517 8.88653 38.1205 6.18652 34.8017 6.18652H11.758C11.5705 5.36152 11.1955 4.57402 10.6142 3.91777C9.67671 2.92402 8.36421 2.34277 7.01421 2.34277H3.75171C2.98296 2.34277 2.34546 2.98027 2.34546 3.74902C2.34546 4.51777 2.98296 5.15527 3.75171 5.15527H7.01421C7.59546 5.15527 8.13921 5.39902 8.53296 5.81152C8.92671 6.24277 9.11421 6.80527 9.07671 7.38652ZM18.7517 38.9072C18.7517 40.7194 17.2826 42.1885 15.4705 42.1885C13.6583 42.1885 12.1892 40.7194 12.1892 38.9072C12.1892 37.095 13.6583 35.626 15.4705 35.626C17.2826 35.626 18.7517 37.095 18.7517 38.9072ZM33.7483 38.9072C33.7483 40.7194 32.2793 42.1885 30.4671 42.1885C28.6549 42.1885 27.1859 40.7194 27.1859 38.9072C27.1859 37.095 28.6549 35.626 30.4671 35.626C32.2793 35.626 33.7483 37.095 33.7483 38.9072ZM9.69409 16.4053H38.4566C39.3378 16.4053 40.0128 17.1365 39.9378 17.999L39.3191 26.7553C39.1128 29.5678 36.6378 31.874 33.8253 31.874H12.9753C9.76909 31.874 7.25659 29.1365 7.51909 25.9303L8.19409 17.774C8.26909 17.0053 8.90659 16.4053 9.69409 16.4053Z" fill="url(#paint0_linear_6240_8166)" />
+													<defs>
+														<linearGradient id="paint0_linear_6240_8166" x1="23.7219" y1="16.4054" x2="23.7219" y2="31.8742" gradientUnits="userSpaceOnUse">
+															<stop stop-color="#93E6FF" />
+															<stop offset="1" stop-color="#6CC7E3" />
+														</linearGradient>
+													</defs>
+												</svg>
+											</div>
+										</div>
+										<div class="row__content fade-in-bottom" data-scroll>
+											<h3 class="row__title">
+												<span data-digits-counter>30</span><span>%</span>
+											</h3>
+											<p class="row__text">
+												Increase fill rates
+											</p>
+										</div>
+									</div>
+									<div class="row__column">
+										<div class="row__image-wrapper row__image-wrapper_2">
+											<div class="row__image row__image_2">
+												<svg width="45" height="45" viewBox="0 0 45 45" fill="none" xmlns="http://www.w3.org/2000/svg">
+													<path fill-rule="evenodd" clip-rule="evenodd" d="M22.4071 4.26152L33.0009 9.96152C33.7696 10.3928 34.2571 11.2178 34.2571 12.1178C34.2571 13.0365 33.7696 13.8615 33.0009 14.274L22.4071 19.974C21.8634 20.274 21.2259 20.424 20.6259 20.424C20.0259 20.424 19.4071 20.274 18.8446 19.974L8.25088 14.274C7.46338 13.8615 6.99463 13.0365 6.99463 12.1178C6.99463 11.2178 7.48213 10.3928 8.25088 9.96152L18.8259 4.26152C19.9509 3.66152 21.2821 3.66152 22.4071 4.26152ZM7.25771 17.0522L17.1015 21.9647C18.5265 22.6959 19.4265 24.1397 19.4452 25.7522V35.0522C19.4452 35.8959 19.014 36.6647 18.3015 37.1147C17.9077 37.3397 17.4577 37.4709 17.0265 37.4709C16.6515 37.4709 16.2765 37.3772 15.939 37.2084L6.09521 32.2959C4.65146 31.5647 3.75146 30.1209 3.75146 28.5084V19.2084C3.75146 18.3647 4.18271 17.5959 4.89521 17.1459C5.62646 16.7147 6.48896 16.6584 7.25771 17.0522ZM37.4999 19.2084V23.8209C36.5999 23.5584 35.6437 23.4459 34.6874 23.4459C32.1374 23.4459 29.6437 24.3272 27.6749 25.9022C24.9749 28.0209 23.4374 31.2272 23.4374 34.6959C23.4374 35.6147 23.5499 36.5334 23.7937 37.4147C23.5124 37.3772 23.2312 37.2647 22.9687 37.0959C22.2562 36.6647 21.8249 35.8959 21.8249 35.0522V25.7522C21.8249 24.1397 22.7249 22.6959 24.1499 21.9647L33.9937 17.0522C34.7624 16.6584 35.6249 16.7147 36.3562 17.1459C37.0687 17.5959 37.4999 18.3647 37.4999 19.2084ZM34.6858 26.2889C37.3296 26.2889 39.6733 27.4889 41.2108 29.3827C42.4108 30.8264 43.1233 32.7014 43.1233 34.7264C43.1233 36.3014 42.6733 37.8014 41.9046 39.0764C41.4546 39.8264 40.8921 40.5014 40.2358 41.0639C38.7546 42.3764 36.8233 43.1639 34.6858 43.1639C32.6796 43.1639 30.8233 42.4514 29.3796 41.2514H29.3608C28.6108 40.6514 27.9733 39.9202 27.4671 39.0764C26.6983 37.8014 26.2483 36.3014 26.2483 34.7264C26.2483 32.0639 27.4671 29.6827 29.4171 28.1452C30.8608 26.9827 32.6983 26.2889 34.6858 26.2889ZM34.4233 37.8389L38.9233 33.6764C39.5046 33.1514 39.5421 32.2702 38.9983 31.6889C38.4733 31.1264 37.5733 31.0889 37.0108 31.6139L33.5046 34.8577L32.3796 33.7327C31.8358 33.1889 30.9358 33.1889 30.3921 33.7327C29.8483 34.2764 29.8483 35.1764 30.3921 35.7202L32.4733 37.8014C32.7546 38.0827 33.1108 38.2139 33.4671 38.2139C33.8046 38.2139 34.1608 38.0827 34.4233 37.8389Z" fill="url(#paint0_linear_6240_8199)" />
+													<defs>
+														<linearGradient id="paint0_linear_6240_8199" x1="25.8538" y1="17.7" x2="25.8538" y2="32.9774" gradientUnits="userSpaceOnUse">
+															<stop stop-color="#C34AFF" />
+															<stop offset="1" stop-color="#BC51F1" />
+															<stop offset="1" stop-color="#B043E6" />
+														</linearGradient>
+													</defs>
+												</svg>
+											</div>
+										</div>
+										<div class="row__content fade-in-bottom" data-scroll>
+											<h3 class="row__title">
+												Instantly available
+											</h3>
+											<p class="row__text">
+												See APFusion inventory exactly <br> as if it’s your own
+											</p>
+										</div>
+									</div>
+									<div class="row__column">
+										<div class="row__image-wrapper row__image-wrapper_3">
+											<div class="row__image row__image_3">
+												<svg width="45" height="45" viewBox="0 0 45 45" fill="none" xmlns="http://www.w3.org/2000/svg">
+													<path fill-rule="evenodd" clip-rule="evenodd" d="M28.0306 3.74902C30.8618 3.74902 33.3743 5.45527 34.4056 8.09902C35.4181 10.7615 34.7243 13.7053 32.6243 15.6178L25.0493 22.499H19.9681L12.3931 15.6178C10.2743 13.7053 9.58058 10.7615 10.5931 8.09902C11.6243 5.45527 14.1368 3.74902 16.9681 3.74902H28.0306ZM19.0868 13.5553H25.9118C26.6056 13.5553 27.1868 12.974 27.1868 12.2803C27.1868 11.5865 26.6243 11.0053 25.9118 11.0053H19.0868C18.3931 11.0053 17.8118 11.5865 17.8118 12.2803C17.8118 12.974 18.3743 13.5553 19.0868 13.5553ZM25.0318 22.4999L32.6068 29.3811C34.7255 31.2936 35.4193 34.2374 34.388 36.8999C33.3568 39.5436 30.863 41.2499 28.013 41.2499H16.9693C14.138 41.2499 11.6255 39.5436 10.5943 36.8999C9.56301 34.2374 10.2568 31.2936 12.3755 29.3811L19.9505 22.4999H25.0318ZM19.088 34.0124H25.913C26.6068 34.0124 27.188 33.4311 27.188 32.7374C27.188 32.0436 26.6255 31.4624 25.913 31.4624H19.088C18.3943 31.4624 17.813 32.0436 17.813 32.7374C17.813 33.4311 18.3755 34.0124 19.088 34.0124Z" fill="url(#paint0_linear_6240_8184)" />
+													<defs>
+														<linearGradient id="paint0_linear_6240_8184" x1="22.494" y1="3.74902" x2="22.494" y2="41.2499" gradientUnits="userSpaceOnUse">
+															<stop stop-color="#68ACEA" />
+															<stop offset="1" stop-color="#5097D7" />
+														</linearGradient>
+													</defs>
+												</svg>
+											</div>
+										</div>
+										<div class="row__content fade-in-bottom" data-scroll>
+											<h3 class="row__title">
+												<span data-digits-counter>90</span><span>%</span>
+											</h3>
+											<p class="row__text">
+												Less checkout time
+											</p>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="page__numbers numbers">
+				<div class="numbers__container-big">
+					<div class="numbers__container">
+						<div class="numbers__content">
+							<div class="numbers__body">
+								<div class="numbers__column">
+									<h3 class="numbers__title fade-in-bottom" data-scroll>
+										<span data-digits-counter>200000</span><span>+</span><br>
+										parts available and growing
+									</h3>
+								</div>
+								<div class="numbers__column">
+									<p class="numbers__text fade-in-bottom" data-scroll>
+										Get access to the fastest-growing automotive B2B marketplace in the world. With over 200,000 value-brand aftermarket products available and 10,000 CAPA-certified products available upgrade your inventory with APFusion.
+									</p>
+								</div>
+							</div>
+							<div class="numbers__bottom">
+								<div class="numbers__column">
+									<div class="numbers__bottom-title fade-in-bottom" data-scroll>
+										<svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+											<path d="M17.7082 23.6982H7.29156C6.86448 23.6982 6.51031 23.3441 6.51031 22.917C6.51031 22.4899 6.86448 22.1357 7.29156 22.1357H17.7082C18.1353 22.1357 18.4895 22.4899 18.4895 22.917C18.4895 23.3441 18.1353 23.6982 17.7082 23.6982Z" fill="#5B636C" />
+											<path d="M18.7501 2.08301H6.2501C3.94802 2.08301 2.08344 3.94759 2.08344 6.24967V15.6247C2.08344 17.9268 3.94802 19.7913 6.2501 19.7913H18.7501C21.0522 19.7913 22.9168 17.9268 22.9168 15.6247V6.24967C22.9168 3.94759 21.0522 2.08301 18.7501 2.08301ZM10.4064 7.62468C10.9897 7.62468 11.4584 8.09342 11.4584 8.66634C11.4584 9.23926 10.9897 9.70801 10.4168 9.70801C9.84385 9.70801 9.3751 9.23926 9.3751 8.66634C9.3751 8.09342 9.83344 7.62468 10.4064 7.62468ZM7.1251 7.62468C7.70844 7.62468 8.17719 8.09342 8.17719 8.66634C8.17719 9.23926 7.70844 9.70801 7.13552 9.70801C6.5626 9.70801 6.09385 9.23926 6.09385 8.66634C6.09385 8.09342 6.54177 7.62468 7.1251 7.62468ZM17.9793 15.4788H7.04177C6.60427 15.4788 6.2501 15.1247 6.2501 14.6976C6.2501 14.2705 6.59385 13.9163 7.02094 13.9163H17.9897C18.4168 13.9163 18.7709 14.2705 18.7709 14.6976C18.7709 15.1247 18.4168 15.4788 17.9793 15.4788ZM17.9793 9.44759H14.1459C13.7189 9.44759 13.3647 9.09342 13.3647 8.66634C13.3647 8.23926 13.7189 7.88509 14.1459 7.88509H17.9793C18.4064 7.88509 18.7605 8.23926 18.7605 8.66634C18.7605 9.09342 18.4168 9.44759 17.9793 9.44759Z" fill="#5B636C" />
+										</svg>
+										<span>Real-Time Sync</span>
+									</div>
+									<p class="numbers__bottom-text fade-in-bottom" data-scroll>
+										Syncing price and quantity once daily isn’t nearly enough in today’s fast-moving ecosystem. We’ve got you covered. APFusion runs a real-time price sync to ensure what you see is in stock, actually is.
+									</p>
+								</div>
+								<div class="numbers__column">
+									<div class="numbers__bottom-title fade-in-bottom" data-scroll>
+										<svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+											<path d="M21.2602 7.25V9.15625C21.2602 9.82292 20.9477 10.4479 20.406 10.8333L8.94771 19.2292C8.20813 19.7708 7.19771 19.7708 6.46855 19.2188L4.96855 18.0938C4.29146 17.5833 3.73938 16.4792 3.73938 15.6354V7.25C3.73938 6.08333 4.63521 4.79167 5.72896 4.38542L11.4269 2.25C12.0206 2.03125 12.979 2.03125 13.5727 2.25L19.2706 4.38542C20.3644 4.79167 21.2602 6.08333 21.2602 7.25Z" fill="#5B636C" />
+											<path d="M19.6044 12.8543C20.2919 12.3543 21.2606 12.8439 21.2606 13.6981V15.6564C21.2606 16.5001 20.7085 17.5939 20.0315 18.1043L14.3335 22.3647C13.8335 22.7293 13.1669 22.9168 12.5002 22.9168C11.8335 22.9168 11.1669 22.7293 10.6669 22.3543L9.8023 21.7085C9.2398 21.2918 9.2398 20.4481 9.81271 20.0314L19.6044 12.8543Z" fill="#5B636C" />
+										</svg>
+										<span>Mapping Accuracy</span>
+									</div>
+									<p class="numbers__bottom-text fade-in-bottom" data-scroll>
+										We obsess over data integrity. The APFusion data team constantly sweeps the platform to ensure all products are mapped 100% accurately.
+									</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="page__info info">
+				<div class="info__container-big">
+					<div class="info__container">
+						<div class="info__body" data-prlx-parent>
+							<div class="info__images" data-prlx data-coefficient="100" data-direction="1">
+								<div class="info__images-inner">
+									<div class="info__image-top info-rotation-top" data-scroll>
+										<picture><source srcset="img/info/info-image-top.webp" type="image/webp"><img src="img/info/info-image-top.png" alt="image-top"></picture>
+									</div>
+									<div class="info__image-bottom info-rotation-bottom" data-scroll>
+										<picture><source srcset="img/info/info-image-bottom.webp" type="image/webp"><img src="img/info/info-image-bottom.png" alt="image-bottom"></picture>
+									</div>
+								</div>
+							</div>
+							<div class="info__content content-info">
+								<div class="content-info__item fade-in-bottom" data-scroll>
+									<h3 class="content-info__title">
+										New products
+									</h3>
+									<p class="content-info__text">
+										New products are added weekly
+									</p>
+								</div>
+								<div class="content-info__item fade-in-bottom" data-scroll>
+									<h3 class="content-info__title">
+										+80 different part-types
+									</h3>
+									<p class="content-info__text">
+										Get access to over 80 different part-types
+									</p>
+								</div>
+								<div class="content-info__item fade-in-bottom" data-scroll>
+									<h3 class="content-info__title">
+										200,000 value-brand
+									</h3>
+									<p class="content-info__text">
+										200,000 value-brand aftermarket products available
+									</p>
+								</div>
+								<div class="content-info__item fade-in-bottom" data-scroll>
+									<h3 class="content-info__title">
+										10,000+ products
+									</h3>
+									<p class="content-info__text">
+										10,000+ CAPA-certified products
+									</p>
+								</div>
+								<div class="content-info__item fade-in-bottom" data-scroll>
+									<h3 class="content-info__title fade-in-bottom" data-scroll>
+										OEM & Partslink number mappings
+									</h3>
+									<p class="content-info__text fade-in-bottom" data-scroll>
+										OEM & Partslink number mappings are available for over 90% of our products
+									</p>
+								</div>
+							</div>
+						</div>
+						<div class="info__bottom bottom-info">
+							<div class="bottom-info__body" data-prlx-parent>
+								<div class="bottom-info__card bottom-info__card_1 fade-in-bottom" data-scroll data-prlx data-coefficient="100" data-direction="1">
+									<div class="bottom-info__card-border">
+										<div class="bottom-info__card-content">
+											<h4 class="bottom-info__title-card">
+												$7M
+											</h4>
+											<p class="bottom-info__text-card">
+												of additional revenue generated in 2022
+											</p>
+										</div>
+									</div>
+								</div>
+								<div class="bottom-info__benefits fade-in-bottom" data-scroll>
+									<h3 class="bottom-info__title">
+										Over 200 of the largest salvage yards in the United States trust APFusion.
+									</h3>
+									<p class="bottom-info__text">
+										We’ve helped salvage yards generate millions of dollars in additional revenue. We’re setting out to change the salvage industry forever by modernizing and optimizing how people find and sell auto parts.
+									</p>
+									<div class="bottom-info__button-wrapper" data-da=".bottom-info__body,480">
+										<a href="#" data-popup="#popup" class="button__info bottom-info__button">
+											<span>Start today</span>
+										</a>
+									</div>
+								</div>
+								<div class="bottom-info__card bottom-info__card_2 fade-in-bottom" data-scroll data-prlx data-coefficient="100" data-direction="-1">
+									<div class="bottom-info__card-border">
+										<div class="bottom-info__card-content">
+											<h4 class="bottom-info__title-card">
+												15,000+
+											</h4>
+											<p class="bottom-info__text-card">
+												transactions <br> processed
+											</p>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="page__why why">
+				<div class="why__container-big">
+					<div class="why__container">
+						<div class="why__body">
+							<div class="why__content">
+								<h3 class="why__title fade-in-bottom" data-scroll>
+									Why APFusion
+								</h3>
+								<ul class="why__list">
+									<li class="why__item item-why fade-in-bottom" data-scroll>
+										<h4 class="item-why__title">
+											Close To The Industry
+										</h4>
+										<p class="item-why__text">
+											Our founding team grew up in the salvage industry. We know the pain points that plague this industry. APFusion was built to solve them.
+										</p>
+									</li>
+									<li class="why__item item-why fade-in-bottom" data-scroll>
+										<h4 class="item-why__title">
+											Tech First
+										</h4>
+										<p class="item-why__text">
+											We believe the salvage industry has been underserved for years. With a lot of waste in terms of time. Our goal through technology is to increase sales while increasing productivity.
+										</p>
+									</li>
+									<li class="why__item item-why fade-in-bottom" data-scroll>
+										<h4 class="item-why__title">
+											We Optimize for Efficiency
+										</h4>
+										<p class="item-why__text">
+											Selling more auto parts is one thing, but we make sure that you’re selling more parts faster than ever before. Get rid of waste, use APFusion to elevate your team’s performance.
+										</p>
+									</li>
+									<li class="why__item item-why fade-in-bottom" data-scroll>
+										<h4 class="item-why__title">
+											Hyper Focused
+										</h4>
+										<p class="item-why__text">
+											We make updates to our system weekly in order to provide you with the best user experience possible.
+										</p>
+									</li>
+								</ul>
+							</div>
+							<div class="why__images">
+								<div class="why__image-top rotation-top" data-scroll>
+									<picture><source srcset="img/why/why-top.webp" type="image/webp"><img src="img/why/why-top.png" alt="top"></picture>
+								</div>
+								<div class="why__image-bottom rotation-bottom" data-scroll>
+									<picture><source srcset="img/why/why-bottom.webp" type="image/webp"><img src="img/why/why-bottom.png" alt="bottom"></picture>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+		</main>
+		<div id="popup" aria-hidden="true" class="popup">
+			<div class="popup__wrapper">
+				<div class="popup__content content-popup">
+					<h2 class="content-popup__title">Schedule a Demo</h2>
+					<div class="content-popup__form">
+						<script defer charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/embed/v2.js?_v=20230621213909"></script>
+						<script defer>
+							hbspt.forms.create({
+								region: "na1",
+								portalId: "22033179",
+								formId: "e2d24dcb-e20b-465d-9a1a-9dc5ec9d0c99",
+							});
+						</script>
+					</div>
+					<button data-close type="button" class="popup__close">
+						<svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+							<g clip-path="url(#clip0_6463_5361)">
+								<path d="M13.9999 12.5179L19.7749 6.85645L21.4245 8.47368L15.6495 14.1351L21.4245 19.7966L19.7749 21.4139L13.9999 15.7524L8.22486 21.4139L6.5752 19.7966L12.3502 14.1351L6.5752 8.47368L8.22486 6.85645L13.9999 12.5179Z" fill="white" />
+							</g>
+							<defs>
+								<clipPath id="clip0_6463_5361">
+									<rect width="28" height="27.4495" fill="white" transform="translate(0 0.410156)" />
+								</clipPath>
+							</defs>
+						</svg>
+					</button>
+				</div>
+			</div>
+		</div>
+		<footer class="footer">
+			<div class="blobs-wrapper">
+				<div class="blobs" role="presentation">
+					<div class="blob-rotate">
+						<div class="blob-move">
+							<div class="blob"></div>
+						</div>
+					</div>
+					<div class="blob-rotate">
+						<div class="blob-move">
+							<div class="blob"></div>
+						</div>
+					</div>
+					<div class="blob-rotate">
+						<div class="blob-move">
+							<div class="blob"></div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="footer__container-big">
+				<div class="footer__body">
+					<a href="#" class="footer__logo fade-in-bottom" data-scroll>
+						<svg width="174" height="46" viewBox="0 0 174 46" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+							<rect width="174" height="46" fill="url(#pattern0)" />
+							<defs>
+								<pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
+									<use xlink:href="#image0_1820_2315" transform="translate(-0.00226926) scale(0.00205393 0.00775194)" />
+								</pattern>
+								<image id="image0_1820_2315" width="487" height="129" xlink:href="data:image/png;base64,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" />
+							</defs>
+						</svg>
+					</a>
+					<span class="footer__copy fade-in-bottom" data-scroll>
+						© 2023 - APFusion
+					</span>
+					<div class="footer__socials socials fade-in-bottom" data-scroll>
+						<a href="#" target="_blank" class="socials__link">
+							<svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+								<g clip-path="url(#clip0_1820_2318)">
+									<path d="M17.5 16.875H20.625L21.875 11.875H17.5V9.375C17.5 8.0875 17.5 6.875 20 6.875H21.875V2.675C21.4675 2.62125 19.9288 2.5 18.3038 2.5C14.91 2.5 12.5 4.57125 12.5 8.375V11.875H8.75V16.875H12.5V27.5H17.5V16.875Z" fill="white" />
+								</g>
+								<defs>
+									<clipPath id="clip0_1820_2318">
+										<rect width="30" height="30" fill="white" />
+									</clipPath>
+								</defs>
+							</svg>
+						</a>
+						<a href="#" target="_blank" class="socials__link">
+							<svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+								<g clip-path="url(#clip0_1820_2322)">
+									<path d="M8.6748 6.2493C8.67447 6.91234 8.41076 7.54809 7.94169 8.0167C7.47261 8.4853 6.8366 8.74838 6.17355 8.74805C5.51051 8.74772 4.87476 8.48401 4.40615 8.01493C3.93755 7.54586 3.67447 6.90984 3.67481 6.2468C3.67514 5.58376 3.93885 4.948 4.40792 4.4794C4.877 4.01079 5.51301 3.74772 6.17605 3.74805C6.8391 3.74838 7.47485 4.01209 7.94346 4.48116C8.41206 4.95024 8.67514 5.58626 8.6748 6.2493ZM8.7498 10.5993H3.7498V26.2493H8.7498V10.5993ZM16.6498 10.5993H11.6748V26.2493H16.5998V18.0368C16.5998 13.4618 22.5623 13.0368 22.5623 18.0368V26.2493H27.4998V16.3368C27.4998 8.6243 18.6748 8.9118 16.5998 12.6993L16.6498 10.5993Z" fill="white" />
+								</g>
+								<defs>
+									<clipPath id="clip0_1820_2322">
+										<rect width="30" height="30" fill="white" />
+									</clipPath>
+								</defs>
+							</svg>
+						</a>
+						<a href="#" target="_blank" class="socials__link">
+							<svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+								<path d="M27.7024 7.07064C26.7481 7.49276 25.7361 7.76998 24.6999 7.89314C25.7921 7.23993 26.6095 6.21191 26.9999 5.00064C25.9749 5.61064 24.8511 6.03814 23.6799 6.26939C22.8931 5.42761 21.8503 4.86934 20.7136 4.68137C19.5768 4.4934 18.4098 4.68625 17.394 5.22996C16.3781 5.77366 15.5704 6.63775 15.0963 7.68788C14.6222 8.73802 14.5083 9.91537 14.7724 11.0369C12.6938 10.9327 10.6603 10.3925 8.80399 9.45147C6.94768 8.5104 5.31004 7.18945 3.99738 5.57439C3.53275 6.37245 3.28858 7.27967 3.28988 8.20314C3.28988 10.0156 4.21238 11.6169 5.61488 12.5544C4.78489 12.5283 3.97317 12.3041 3.24738 11.9006V11.9656C3.24763 13.1728 3.66534 14.3427 4.42969 15.277C5.19404 16.2113 6.25798 16.8525 7.44113 17.0919C6.67065 17.3007 5.86277 17.3315 5.07863 17.1819C5.41222 18.2209 6.06239 19.1296 6.93812 19.7808C7.81385 20.4319 8.87129 20.7929 9.96238 20.8131C8.87798 21.6648 7.63635 22.2944 6.30848 22.6659C4.98061 23.0373 3.59254 23.1435 2.22363 22.9781C4.61325 24.5149 7.395 25.3308 10.2361 25.3281C19.8524 25.3281 25.1111 17.3619 25.1111 10.4531C25.1111 10.2281 25.1049 10.0006 25.0949 9.77814C26.1185 9.03835 27.0019 8.12192 27.7036 7.07189L27.7024 7.07064Z" fill="white" />
+							</svg>
+						</a>
+					</div>
+				</div>
+			</div>
+		</footer>
+	</div>
+	<script src="js/app.min.js?_v=20230621213909"></script>
+</body>
+
+</html>
